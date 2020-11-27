@@ -1,0 +1,16 @@
+|--- Na_to_K <= 14.62
+|   |--- BP <= 0.50
+|   |   |--- Age <= 50.50
+|   |   |   |--- class: drugA
+|   |   |--- Age >  50.50
+|   |   |   |--- class: drugB
+|   |--- BP >  0.50
+|   |   |--- Cholesterol <= 0.50
+|   |   |   |--- BP <= 1.50
+|   |   |   |   |--- class: drugC
+|   |   |   |--- BP >  1.50
+|   |   |   |   |--- class: drugX
+|   |   |--- Cholesterol >  0.50
+|   |   |   |--- class: drugX
+|--- Na_to_K >  14.62
+|   |--- class: drugY
